@@ -1,8 +1,8 @@
 <template>
   <v-app>
     <v-app-bar color="#054ADA" dark>
-      <v-toolbar-title @click="goHome" style="cursor: pointer;"><v-icon class="mr-2">mdi-book</v-icon> Books
-        Frontend</v-toolbar-title>
+      <v-toolbar-title @click="goHome" style="cursor: pointer;"><v-icon class="mr-2">mdi-book</v-icon> Book
+        Catalog</v-toolbar-title>
       <v-spacer />
     </v-app-bar>
 
@@ -11,7 +11,7 @@
     </v-main>
 
     <v-footer color="#054ADA" dark app>
-      <v-col class="text-center white--text">Books Frontend</v-col>
+      <v-col class="text-center white--text">Vue + Nest</v-col>
     </v-footer>
   </v-app>
 </template>
